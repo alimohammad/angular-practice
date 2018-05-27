@@ -12,7 +12,7 @@ const routes: Routes = [
     component: ProuctListComponent
   },
   {
-    path: '/detail',
+    path: 'detail',
     component: ProductDetailComponent
   }
 ];
