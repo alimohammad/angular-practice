@@ -1,0 +1,14 @@
+--ProductModule
+  -ProductListing
+    --Add To Cart
+    --Remove From Cart
+  -Detail
+    --Add To Cart
+    --Remove From Cart
+--CartModule
+  -CheckOut
+--ProductManagementModule
+  -AddProduct
+  -RemoveProduct
+  -EditProduct
+--RoleManagement
