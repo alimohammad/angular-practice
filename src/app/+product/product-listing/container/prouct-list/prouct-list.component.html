@@ -2,7 +2,7 @@
   <div class="col-md-6" *ngFor="let product of products">
     <img [src]="product.image" class="img-thumbnail rounded">
     <label>{{product.name}}</label>
-    <a class="btn btn-primary">Cart</a>
+    <a (click)="addToCart()" class="btn btn-primary">Cart</a>
     <a [routerLink]="['/product/detail', product.id]" class="btn btn-info">Details</a>
   </div>
 </div>

@@ -1,3 +1,5 @@
+import { SharedModule } from './shared/shared.module';
+import { CartModule } from './+cart/cart.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -13,7 +15,9 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
+    CartModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
